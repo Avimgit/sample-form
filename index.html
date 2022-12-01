@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+   <title>Registration Form</title>
+<head>
+ <link rel="stylesheet" href="form2.css">
+  <style>
+    body{
+	background-color:Violet;
+	}
+    h3{
+	color:orange;
+	background-color:white;
+	font-family:cursive;
+	}
+	#day{
+	color:green;
+	font-size:15px;
+	}
+	span{
+	background-color:#F6DDCC;
+	color:red;
+	font-family:fantasy;
+	}   
+	#div1{
+	color:red;
+	border-style:;
+	}
+   </style>
+</head>
+<body>
+  <h3>Seminar Registration</h3>
+  <form action="">
+    <fieldset> 
+       <legend> Name and further details</legend>
+	   <label for="fname">First Name :</label>
+	   <input type="text" id="fname" name="fname" placeholder="write your name"><br><br>
+	   <label for="lname">Last Name :</label>
+	   <input type="text" id="lname" name="lname"><br>
+    </fieldset> 
+   <br>
+   <label for="email">Enter Gmail Id :</label><br>
+   <input type="email" id="email" name="email">
+   <br>
+   <br>
+    <label>Enter Your Mobile number :</label>
+	<input type="number"> 
+   <br>
+   <br>
+   <!----------------------------------------->
+         <label>Gender :</label><br>    
+   <input type="radio" id="female" name="gender">
+   <label for="female">Female : </label>
+   <input type="radio" id="male" name="gender">
+   <label for="male">Male : </label>
+   <!----------------------------------------->
+   <br>
+   <br>
+   <div id="div1">
+    <label for="age">Range of age :</label><br>
+       <input type="checkbox" id="agerange1" name="age_range">
+       <label for="age range">15-25</label><br>
+   
+       <input type="checkbox" id="agerange2" name="age_range">
+       <label for="age range">25-30</label><br>
+   
+       <input type="checkbox" id="agerange3" name="age_range">
+       <label for="age range">30-45</label>
+   </div>
+   <br>
+   <label for="loc">Location Details : </label>
+   <br>
+   <label for="city">City</label><br>
+   <input type="text" id="city" name="city" placeholder="enter city name"><br>
+   
+   <label for="state">State</label><br>
+   <input type="text" id="state" name="state" value="MP"><br>
+   
+   <label for="country">Country</label><br>
+   <input type="text" id="country" name="country"><br><br>
+   
+   <label for="day">Choose a day of 1st week of Nov 22 for Inquiry Purpose.</label><br>
+    <select id="day" name="day">
+      <option value="monday">Monday</option>
+	  <option value="wednesday">Wednesday</option>
+	  <option value="Friday">Friday</option>
+    </select>  
+   <br>
+   <br>
+  Submit Document : <input type="file" id="filedoc" name="filedoc">
+   <br>
+   <br>
+    <label for="message">Your area of interest :</label><br>
+	<textarea name="message" row="10" cols="30"></textarea>
+	  <input type="submit">
+	  <br>
+	  <button type="button" onclick="alert('Bring your parents and friend. Keep your notebook, pen, waterbottle, etc.')">Click to know Good Practice</button>
+	  <br><br>
+	<label for="text"><span> NOTE*</span> : Next month <span> SEMINAR </span> date will be on <span> 12-12-2022 </span> for a day, <br>
+     you will get your details through mail and mobile number.</label>	
+	 <br>
+</form>
+</body>
+</html>
+
+npm install -g firebase-tools

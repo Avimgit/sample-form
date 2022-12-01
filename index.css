@@ -1,0 +1,10 @@
+#div1{
+	color:orange;
+	border-style:solid;
+	border-width:3px;
+	background-color:lightgrey;
+	border-color:green;
+	}
+input[type=submit]:hover {
+  background-color: gold;	
+}
